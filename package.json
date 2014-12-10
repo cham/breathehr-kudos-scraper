@@ -1,0 +1,19 @@
+{
+  "name": "BreatheHR-Kudos-Scraper",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.11.13"
+  },
+  "scripts": {
+    "preinstall": "npm prune",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "routemaster": "^0.2.1",
+    "cheerio": "0.18.0"
+  },
+  "devDependencies": {
+  }
+}
