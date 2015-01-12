@@ -3,17 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": "0.11.13"
+    "node": "0.10.33"
   },
   "scripts": {
     "preinstall": "npm prune",
     "start": "node app"
   },
   "dependencies": {
+    "cheerio": "0.18.0",
     "express": "~4.0.0",
+    "q": "^1.1.2",
+    "request": "^2.50.0",
     "routemaster": "^0.2.1",
-    "cheerio": "0.18.0"
+    "tough-cookie": "^0.12.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
